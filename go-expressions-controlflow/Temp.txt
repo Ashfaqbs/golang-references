@@ -1,0 +1,25 @@
+❯❯ go-expressions-controlflow git:(main) 13:01 go run .\main.go
+a: 10  and value of b: 3
+b: 3
+sum (a + b): 13
+diff (a - b): 7
+prod (a * b): 30
+quotient (a / b): 3
+remainder (a % b): 1
+x: 10
+y: 3
+division (x / y): 3.3333333333333335
+isEqual (a == b): false
+isNotEqual (a != b): true
+isGreater (a > b): true
+isLessOrEqual (a <= b): false
+isAdult: true
+hasTicket: false
+canEnter (isAdult && hasTicket): false
+canEnterWithPass (isAdult || hasTicket): true
+denied (!canEnter): true
+Entry status: denied
+score: 85
+Grade: B
+bonus (score - 80): 5
+❯❯ go-expressions-controlflow git:(main) 13:01
