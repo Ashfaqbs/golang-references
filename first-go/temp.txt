@@ -1,0 +1,37 @@
+..\golang-references\first-go> go run  .\main.go
+Hello from Go variables!
+
+
+
+
+..\golang-references\first-go> go build main.go
+
+..\golang-references\first-go> ls
+
+
+  ..\golang-references\first-go
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/27/2025  10:43 AM        2303488 main.exe
+-a----        12/27/2025  10:41 AM            105 main.go
+-a----        12/27/2025  10:40 AM              0 Notes.md
+
+
+..\golang-references\first-go> .\main.exe
+Hello from Go variables!
+
+
+This standalone executable does not require Go to be installed on the system where you're running it.
+
+Compilation: When you run go build, Go compiles your source code into an executable binary that includes all the dependencies (the Go runtime, any packages you import, etc.). The compiled file is a fully self-contained program.
+
+No Go needed: After the build, you can take the main.exe file and run it on any Windows machine without needing Go installed. The Go runtime and all necessary components are already bundled inside the executable.
+
+
+
+
+
+
+
