@@ -1,0 +1,33 @@
+go-maps git:(main) 15:48 go run .\main.go
+scores map: map[Alice:90 Bob:75]
+
+Access values by key:
+scores["Alice"]: 90
+scores["Bob"]: 75
+
+After adding Charlie:
+scores map: map[Alice:90 Bob:75 Charlie:82]
+
+After updating Bob to 80:
+scores map: map[Alice:90 Bob:80 Charlie:82]
+
+Access non-existing key:
+scores["David"]: 0
+
+Check presence of key "David":
+value: 0
+exists (ok): false
+
+Check presence of key "Alice":
+value: 90
+exists (ok): true
+
+After deleting Charlie:
+scores map: map[Alice:90 Bob:80]
+
+ages map created with make:
+ages: map[Jerry:28 Tom:30]
+
+Loop over scores map with range:
+name: Alice score: 90
+name: Bob score: 80
