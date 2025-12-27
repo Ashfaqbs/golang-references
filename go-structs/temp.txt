@@ -1,0 +1,23 @@
+go-structs git:(main) 20:01 go run .\main.go
+p1 (zero value): { 0 false [0 0 0]}
+p1 fields -> Name:  Age: 0 Active: false  Skills:  [0 0 0]
+
+p2 (with field names): {Alice 30 true [0 0 0]}
+p2 after updates: {Alice 31 false [0 0 0]}
+
+p3 (positional literal): {Bob 25 true [0 0 0]}
+
+p4 before pointer modification: {Charlie 40 true [0 0 0]}
+p4 after pointer modification: {Charlie 41 false [0 0 0]}
+p4Ptr points to: {Charlie 41 false [0 0 0]}
+
+p5 post modification :  {Name  20 true [0 0 0]}
+printing pointer person:  {Name Test 20 true [0 0 0]}
+
+people slice: [{Alice 31 false [0 0 0]} {Bob 25 true [0 0 0]} {Charlie 41 false [0 0 0]}]
+
+Loop over people slice:
+index: 0 Name: Alice Age: 31 Active: false
+index: 1 Name: Bob Age: 25 Active: true
+index: 2 Name: Charlie Age: 41 Active: false
+❯❯ go-structs git:(main) 20:09
