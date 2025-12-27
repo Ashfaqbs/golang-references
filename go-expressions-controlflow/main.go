@@ -98,6 +98,6 @@ func main() {
 
 
 		note in java you cannot create a variable in if() and
-		Go does not have a direct ternary operator like other languages such as C, Java, or JavaScript.
+		Go does not have a direct ternary operator, like other languages such as C, Java, or JavaScript.
 	*/
 }
