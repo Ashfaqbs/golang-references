@@ -1,0 +1,29 @@
+go-variables-declarations git:(main) 12:00 go run  .\main.go
+a: 10
+b (zero value): 0
+c: 3.14
+d: Go
+x: 1
+y: 2
+e: true
+f: test
+e after reassignment: false
+name (zero value):
+age (zero value): 0
+active: true
+Type of a: int
+Type of c: float64
+Type of d: string
+Type of e: bool
+Type of name: string
+❯❯ go-variables-declarations git:(main) 12:00
+
+
+
+
+
+
+
+
+
+
