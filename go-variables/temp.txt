@@ -1,0 +1,15 @@
+go-variables  11:53 go run .\main.go
+isGoFun: true
+age: 25
+pi: 3.14159
+language: Go language
+count: 10
+ratio: 0.75
+title: Go notes
+Type of isGoFun: bool
+Type of age: int
+Type of pi: float64
+Type of language: string
+Type of count: int
+Type of ratio: float64
+Type of title: string
