@@ -1,0 +1,21 @@
+❯❯ go-modules-packages git:(main) 21:13 go mod init example.com/go-notes
+go: creating new go.mod: module example.com/go-notes
+❯❯ go-modules-packages git:(main) 21:13 ls
+
+
+    Directory: C:\tmp\projects\golang-references\go-modules-packages
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        12/27/2025   9:15 PM                greet
+-a----        12/27/2025   9:13 PM             40 go.mod
+-a----        12/27/2025   9:16 PM            295 main.go
+
+
+❯❯ go-modules-packages git:(main) 21:18 go run .\main.go
+In main function
+greet.Hello returned: Hello, Go learner! Welcome to Go packages.
+greet.Goodbye returned: Goodbye, Go learner! See you again.
+❯❯ go-modules-packages git:(main) 21:18 
+
