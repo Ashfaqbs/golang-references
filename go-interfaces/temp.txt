@@ -1,0 +1,23 @@
+❯❯ go-interfaces git:(main) 21:07 go run .\main.go      
+Concrete values:
+person: {Alice 30}
+product: {Laptop 1299.99}
+
+Describer holding Person:
+Description: Person(Name=Alice, Age=30)
+
+Describer holding Product:
+Description: Product(Name=Laptop, Price=1299.99)
+
+Loop over slice of Describer:
+index: 0
+Description: Person(Name=Alice, Age=30)
+index: 1
+Description: Product(Name=Laptop, Price=1299.99)
+index: 2
+Description: Product(Name=Phone, Price=699.50)
+index: 3
+Description: Person(Name=Bob, Age=25)
+
+Zero value of interface (empty): <nil>
+Is empty == nil? true
