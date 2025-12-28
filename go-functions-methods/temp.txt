@@ -1,0 +1,27 @@
+❯❯ go-functions-methods git:(main) 20:30 go run .\main.go
+Calling greet:
+Hello, Go learner
+
+Calling add:
+add(10, 20): 30
+
+Calling divideAndRemainder:
+divideAndRemainder(17, 5) -> quotient: 3 remainder: 2
+
+Creating Person:
+Initial person: {Alice 29}
+
+Calling person.Info():
+Person Info -> Name: Alice Age: 123
+Original person: {Alice 29}
+
+
+Calling person.HaveBirthday():
+Happy birthday, Alice New age: 30
+Person after HaveBirthday: {Alice 30}
+
+Calling HaveBirthday via pointer:
+Happy birthday, Alice New age: 31
+Person after pointer HaveBirthday: {Alice 31}
+Person after pointer HaveBirthday: {Alice 31}
+❯❯ go-functions-methods git:(main) 20:31 
