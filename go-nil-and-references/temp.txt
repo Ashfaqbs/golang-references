@@ -1,0 +1,52 @@
+PS C:\tmp\projects\golang-references\go-nil-and-references> go run .\main.go
+== Slices ==
+s1 (nil slice): [] len: 0
+s2 (empty literal): [] len: 0
+s3 (make with length 0): [] len: 0
+s1 == nil: true
+s2 == nil: false
+s3 == nil: false
+s1 after append: [10 20] len: 2
+
+Range over s1:
+index: 0 value: 10
+index: 1 value: 20
+
+Range over s2 (empty):
+
+== Maps ==
+m1 (nil map): map[]
+m2 (empty literal): map[]
+m3 (make): map[]
+m1 == nil: true
+m2 == nil: false
+m3 == nil: false
+m1["x"] from nil map: 0
+
+Attempting write to nil map (m1)...
+m2 after write: map[a:10]
+m3 after write: map[b:20]
+
+== Pointers and mutation ==
+y (copy of x): 10
+x (original scalar): 10
+y (copy of x): 20
+z before: 10 zPtr: 0xc00000a138 *zPtr: 10
+z after *zPtr = 99: 99 zPtr: 0xc00000a138 *zPtr: 99
+
+== Struct pointer sharing ==
+p      (original): {Alice 35}
+pCopy  (value copy): {Alice 40}
+pPtr-> (via pointer): {Alice 35}
+
+== Nil pointer ==
+pNil: <nil>
+pNil == nil: true
+
+== Interfaces and nil ==
+i1 (uninitialized interface): <nil>
+i1 == nil: true
+i2 (interface holding nil *Person): <nil>
+i2 == nil: false
+Type assertion i2.(*Person) succeeded, value: <nil>
+pFromI2 == nil: true
