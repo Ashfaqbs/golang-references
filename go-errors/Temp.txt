@@ -1,0 +1,19 @@
+PS C:\tmp\projects\golang-references\go-errors> go run .\main.go
+== divide with valid input ==
+result: 5
+
+== divide with division by zero ==
+error: cannot divide by zero
+Function starts here.
+Third deferred statement.
+Second deferred statement.
+First deferred statement.
+panic: Critical error: cannot open config file 'config.txt': open config.txt: The system cannot find the file specified.
+
+goroutine 1 [running]:
+main.openConfigFile({0x1f3669, 0xa})
+        C:/tmp/projects/golang-references/go-errors/main.go:38 +0xb9
+main.main()
+        C:/tmp/projects/golang-references/go-errors/main.go:89 +0x190
+exit status 2
+PS C:\tmp\projects\golang-references\go-errors> 
